@@ -16,14 +16,13 @@
             /* Individual div styling */
             .box {
               flex: 1;
-              min-width: 400px; /* Sets a minimum width */
+              min-width: 500px; /* Sets a minimum width */
               padding: 20px;
-              /*background-color: lightblue;*/
               text-align: center;
             }
           
             /* Stack divs vertically on smaller screens */
-            @media (max-width: 1200px) {
+            @media (max-width: 1000px) {
               .container {
                 flex-direction: column;
               }
@@ -41,25 +40,25 @@
 <body>
 
 <img id="logo" src="logo.jpeg">
-<h1 id="title">Welcome to NeuroCare Network</h1>
+<h1 id="title">NeuroCare Network</h1>
 
 <div class="pagecontent">
     <h2>Our Mission</h2>
     <h4>Providing Awareness Across South Florida</h4>
     <h3>
-        NeuroCare Network raises awareness about neurological disorders by uniting communities through acts of kindness and striving to build a supportive network for patients battling these conditions. Our mission is to make a positive impact on the lives of those affected by neurological disorders, contributing to a more compassionate and informed society.
+        <u>NeuroCare Network</u> raises awareness about neurological disorders by uniting communities through acts of kindness and striving to build a supportive network for patients battling these conditions. Our mission is to make a positive impact on the lives of those affected by neurological disorders, contributing to a more compassionate and informed society.
     </h3>
 
     <div class="container">
         <div class="box">
-            <h2>​Upcoming Events</h2>
+            <h2 class="textmarker-effect">​Upcoming Events</h2>
     <table id="events" style="border-spacing:30px 0;">
-        <tr style="background-color:#6e6e8c;">
+        <tr style="background-color:#6e6e8c; color:white; font-size: 30px;">
             <th>oct 1</th>
             <th>oct 2</th>
             <th>oct 3</th>
         </tr>
-        <tr style="background-color:#a8a8ff;">
+        <tr style="background-color:#cacff0;">
             <th>Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that do not yet have content. </th>
             <th>Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that do not yet have content. </th>
             <th>Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that do not yet have content. </th>
@@ -77,7 +76,7 @@
 
     <div style="font-size: 30px;">
         - 
-        <a href="https://parklandtalk.com/neurocare-network-marjory-stoneman-douglas-48601">Parkland Talk</a> 
+        <a style="color:#6E6E8C;" href="https://parklandtalk.com/neurocare-network-marjory-stoneman-douglas-48601">Parkland Talk</a> 
     </div>
 
 
@@ -92,7 +91,7 @@
         in their community</p>
 
         <table class="emphasis" style="width:100%; border-spacing: 30px, 0px; border-spacing: 20px;">
-            <tr>
+            <tr style="font-size: 30px;">
             <th>Jiya Anand</th>
             <th>Preesha Zaveri</th>
             <th>Samara Murad</th>
@@ -148,7 +147,7 @@
                 <img src="Cleveland.png" alt="Cleveland" width="300" height="40">
             </div>
             <div style="min-width: 80px;" class="box">
-                <img src="Nicklaus.png" alt="Nicklaus" width="300" height="100">
+                <img src="Nicklaus.png" alt="Nicklaus" width="280" height="100">
             </div>
             <div style="min-width: 80px;" class="box">
                 <img src="joe.png" alt="Nicklaus" width="230" height="100">
